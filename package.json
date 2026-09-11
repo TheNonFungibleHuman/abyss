@@ -1,0 +1,14 @@
+{
+  "name": "abyss",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An immersive scroll-driven WebGL descent from orbit to the abyssal core, built with three.js. No build step, no textures, no audio files.",
+  "scripts": {
+    "start": "npx --yes serve -l 8080 .",
+    "verify": "node tools/verify.mjs",
+    "verify:quick": "node tools/verify.mjs --quick"
+  },
+  "keywords": ["three.js", "webgl", "glsl", "scrollytelling", "shaders"],
+  "license": "MIT"
+}
